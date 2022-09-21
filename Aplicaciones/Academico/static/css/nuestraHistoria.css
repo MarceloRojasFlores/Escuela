@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url('../img/reservacion.png');
+    font-family:Arial, Helvetica, sans-serif;
+}
+.container{
+    max-width: 100%;
+     background: #020c18;
+    position: fixed;
+    top: 0;
+}
+.nav{
+    width: 80%;
+    margin: auto;
+    /* background: blue; */
+  
+}
+.nav-link>img{
+    width: auto;
+    height: 45px;
+    object-fit: cover;
+}
+.dropdown-item{
+    color: black;
+}
+/***********************************************************************
+                   HISTORIA                       
+************************************************************************/
+.cajas{
+    width: 100%;
+    padding-left: 75px;
+    background-color: rebeccapurple;
+    display: flex;
+}
+.cajas .btn1 button{
+    padding: 4px 10px;
+}
+.cajas .btn2{
+    /* background-color: red; */
+    padding-left: 15px;
+}
+.cajas .btn2 button{
+    padding: 4px 10px;
+}
+/*************************/
+.section{
+    width: 100%;
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+.section .historia{
+    width: 56%;
+    margin: auto;
+    background-color: #ffffff;
+    border: 1px solid black;   
+    
+}
+.historia p{
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+aside{
+    width: 44%;;
+}
+.section .historia p{
+    width: 80%;
+    margin: auto;
+}
+.section .imagen-historia{
+    width: 40%;  
+    /* border: 1px solid red; */
+}
+.imagen-historia img{
+    float:right;
+    height: 250px;
+    padding-right: 55px;
+}
+
+
+/***********************************************************************
+                            Tablas                                  
+************************************************************************/
+.tabla{
+    width: 100%;
+    display: flex;
+    padding-bottom: 35px;
+}
+.tabla table{
+    width: 60%;
+    margin-left: 40px;
+    background-color: #ffffff;
+}
+
+tr,th,td{
+    border: 1px solid black;
+}
+/***********************************************************************
+                EVENTOS-RECUERDOS                             
+************************************************************************/
+.evento{
+    width: 100%;
+}
+.evento h1{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    color: #000000;
+    text-shadow:0 0 8px rgb(0, 0, 0,0.8);
+    font-size: 85px;
+}
+.container1{
+    padding-bottom: 100px;
+}
+.container1 .row{
+    width: 90%;
+    height: auto;
+    padding-top: 20px;
+    margin: auto;
+}
+
+.row .columna{
+    width: 250px;
+    height: auto;
+    margin-left: 30px;
+ 
+}
+.row img{
+    border-radius: 15%;
+    width: 100%;
+    height: 251px;
+}
+.row img:hover{
+    border: 5px solid #ffffff;
+}
+
+/***********************************************************************
+                   FOOTER                                  
+************************************************************************/
+.footer{
+    width: 100%;
+    background: black;
+    height: auto;
+}
+.footer .row{
+    width: 80%;
+    margin:auto;
+    color: white;
+    /* border: 1px solid #ffffff; */
+    padding-top: 60px;
+}
+
+.imagen-colegio { 
+   width: 100%;
+   height: 600px;
+   background-image: url('../img/hhh.jpg!d');    
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+} 

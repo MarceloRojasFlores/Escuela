@@ -1,0 +1,136 @@
+{% extends 'base.html' %}
+{% load static%}
+{% block content%}
+        <link rel="stylesheet" href="{% static 'css/nuestraHistoria.css' %}">
+        <!-- *********************************************************************
+                                IMAGEN COLEGIO                                    
+            ********************************************************************** -->
+            <div class="imagen-colegio">            
+
+            </div>
+         <!-- *********************************************************************
+                             HISTORIA                                
+           ********************************************************************** -->
+    
+            <section class="section">
+                <article class="historia">
+                    <div class="cajas">
+                       <div class="btn1">
+                          <button >inicio</button>
+                       </div>
+                       <div class="btn2">
+                          <button class="btn2">Fundacion(1990-1995)</button>
+                       </div>
+                    </div>
+                     <p>En el año 1964 llegaron a la ciudad de Cochabamba las hermanas de la Congregación “Hijas de Jesús”, quienes llevaron a la práctica, brillantes iniciativas educativas y un bagaje de ideas para unir los diferentes status sociales de nuestro medio, bajo el lema “Amor a Cristo” y “Educación para todos”, sin distinción alguna y con costo económico módico.
+                      El espacio “Villa Loyola”, era una finca de los jesuitas que funcionaba como noviciado y casa vacacional de la Compañía de Jesús. Parte de dicho terreno fue cedido a las religiosas “Hijas de Jesús” para el funcionamiento del colegio y vivienda de las hermanas. Otra parte de la propiedad fue adquirida por la Mutual “La Promot                   
+                    </p>
+                </article>
+    
+                 <aside class="imagen-historia">
+                        <img src="{% static 'img/aula.jpg' %}" alt="">
+                 </aside>
+             </section>
+   <!-- *********************************************************************
+                             HISTORIA   2000-2005                             
+           ********************************************************************** -->
+            <section class="section">
+                <article class="historia">
+                  <div class="cajas">
+                    <div class="btn1">
+                       <button>inicio</button>
+                    </div>
+                    <div class="btn2">
+                       <button class="btn2">Periodo Moderno(2000-2005)</button>
+                    </div>
+                 </div>
+                     <p>En el período 1998-2005 se continuó con el Plan CELCO con algunas modificaciones pedagógicas de acuerdo a los cambios metodológicos de la nueva realidad del estudiante, de la familia y de la sociedad boliviana.
+                      El año 1998 en la presidencia del Lic. Ramiro Verduguez se nombró como Directora del colegio a la Prof. Nélida Hormaeche, cuya gestión duro dos años (1998-1999).
+                      El Presidente del Consejo Educativo P. Paulau S.J. en coordinación con la Dirección y Subdirecciones organizó una nueva estructuración pedagógica que consistía en orientar a los estudiantes de Cuarto Medio hacia una carrera universitaria en tres áreas: Físico – Matemático, Químico – Biológico y Humanístico – Social.
+                      Al término de la gestión de la Prof. Nélida Hormaeche, asumió la Dirección el Lic. Giovanni Machicado Romero en el año 2000. Bajo su dirección; durante los años 2000 y 2001 se modificó la planificación curricular en el proceso enseñanza – aprendizaje con las siguientes características: el Plan Global se efectúa en tres niveles después de una prueba diagnóstica. El primer nivel dirigido a conocimientos básicos fundamentales que el estudiante debe adquirir dentro del proceso de aprendizaje. El segundo nivel consiste en la adquisición de conocimientos complementarios con la finalidad de obtener un nivel de Pensamiento Crítico. El tercer nivel da mayor importancia a conocimientos súper – erogatorios que busca formar y profundizar un Pensamiento Crítico – Creativo.                        
+                    </p>
+                </article>
+    
+                 <aside class="imagen-historia">
+                        <img src="{%static 'img/aula.jpg' %}" alt="">
+                 </aside>
+             </section>
+         <!-- *********************************************************************
+                             TABLA                               
+           ********************************************************************** -->        
+          <div class="tabla">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th colspan="1">#</th>
+                  <th colspan="2" style="text-align: center;">Consejo Administrativo</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Presidente</td>
+                  <td>Maria Cardenas Soto</td>
+               
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>Vicepresidente</td>
+                  <td>Jaime Perez Rocha</td>
+            
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td>Tesorero</td>
+                  <td>Paola Zulema Soliz</td>
+                </tr>
+                <tr>
+                  <th scope="row">4</th>
+                  <td>Secretaria</td>
+                  <td>Ana Garcia Choque</td>
+                </tr>
+                <tr>
+                  <th scope="row">5</th>
+                  <td>Vocal 1</td>
+                  <td>Nelly Zurita Vallejos</td>
+                </tr>
+                <tr>
+                  <th scope="row">6</th>
+                  <td>Vocal 2</td>
+                  <td>Ramiro Martinez Perez</td>
+                </tr>        
+              </tbody>
+            </table>           
+            <aside class="imagen-historia">
+              <img src="{% static 'img/aula.jpg' %}" alt="">
+           </aside>
+          </div>
+     <!-- *********************************************************************
+                               Eventos                                  
+           ********************************************************************** -->
+
+
+            <div class="evento">
+             <h1>Promociones</h1>
+         </div>
+         <section class="container1">
+          <div class="row">
+              <div class="col-lg-4 col-md-6 col-sm-12 columna">
+                 <img src="{% static 'img/promocion.jpg'%}" alt="">
+              </div>
+
+              <div class="col-lg-4 col-md-6 col-sm-12 columna">
+                 <img src="{% static 'img/promocion2.jpg'%}" alt="">
+              </div>
+     
+             <div class="col-lg-4 col-md-6 col-sm-12 columna">
+                 <img src="{% static 'img/promocion3.jpg'%}" alt="">
+             </div>
+             <div class="col-lg-4 col-md-6 col-sm-12 columna">
+                 <img src="{% static 'img/promocion4.jpg'%}" alt="">
+              </div>
+          </div>  
+       </section>
+
+{%endblock%}
+    

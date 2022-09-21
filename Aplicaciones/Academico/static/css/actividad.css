@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family:Arial, Helvetica, sans-serif;
+}
+.container{
+    max-width: 100%;
+     background: #020c18;
+    position: fixed;
+    top: 0;
+}
+.nav{
+    width: 80%;
+    margin: auto;
+    /* background: blue; */
+  
+}
+.nav-link>img{
+    width: auto;
+    height: 45px;
+    object-fit: cover;
+}
+.dropdown-item{
+    color: black;
+}
+/***********************************************************************
+                        AÑO DEPORTIVO                                  
+************************************************************************/
+.deporte{
+    background-image: url('../img/reservacion.png');   
+    width: 100%;
+}
+.deporte h1{
+    text-align: center;
+}
+.deporte p{
+    width: 50%;
+    margin: auto;
+    text-align: left;
+}
+.container1{
+    background-image: url('../img/reservacion.png');   
+    width: 100%;
+    padding-bottom: 100px;
+}
+.container1 .row{
+    width: 90%;
+    height: auto;
+    padding-top: 20px;
+    margin: auto;
+}
+
+.row .columna{
+    width: 250px;
+    height: auto;
+    margin-left: 30px;
+ 
+}
+.row img{
+    border-radius: 15%;
+    width: 100%;
+    height: 251px;
+}
+.row img:hover{
+    border: 5px solid #ffffff;
+}
+/***********************************************************************
+                   FOOTER                                  
+************************************************************************/
+.footer{
+    width: 100%;
+    background: black;
+    height: auto;
+}
+.footer .row{
+    width: 80%;
+    margin:auto;
+    color: white;
+    /* border: 1px solid #ffffff; */
+    padding-top: 60px;
+}
+
+.imagen-colegio {
+   width: 100%;
+   height: 450px;
+   background: black;
+   background-image: url('../img/dance.jpg');    
+   background-repeat: no-repeat;
+  background-size: cover;
+   background-position: center;
+}
